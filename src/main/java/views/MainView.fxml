@@ -10,15 +10,15 @@
    <children>
       <HBox prefHeight="100.0" prefWidth="200.0">
          <children>
-            <TextField fx:id="firstTextElement" />
-            <TextField fx:id="secondElement" />
-            <Button mnemonicParsing="false" onAction="#onAddButton" text="Add" />
+            <TextField id="firstNumberText" fx:id="firstTextElement" />
+            <TextField id="secondNumberText" fx:id="secondElement" />
+            <Button id="addButton" mnemonicParsing="false" onAction="#onAddButton" text="Add" />
          </children>
       </HBox>
       <HBox prefHeight="100.0" prefWidth="200.0">
          <children>
             <Label text="The total is: " />
-            <Label fx:id="totalLabel" text="0" />
+            <Label id="sumLabel" fx:id="totalLabel" text="0" />
          </children>
       </HBox>
    </children>

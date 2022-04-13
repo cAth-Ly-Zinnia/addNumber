@@ -11,7 +11,8 @@ import views.MainController;
 public class Main extends Application {
 
 	@Override
-	public void start(Stage stage) throws Exception {
+	public void start(Stage stage) throws Exception 
+	{
 		AddNumberModel model = new AddNumberModel();
 		FXMLLoader loader = new FXMLLoader();
 		loader.setLocation(Main.class.getResource("views/MainView.fxml"));
