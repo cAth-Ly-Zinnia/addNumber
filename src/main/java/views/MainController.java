@@ -26,6 +26,8 @@ public class MainController {
 	    	{
 	    		firstTextElement.textProperty().set("");
 	    	}
+	    	
+	    	firstTextElement.textProperty().set("");
 	    	return num;
 	    }
 	    
@@ -44,6 +46,7 @@ public class MainController {
 	    		secondElement.textProperty().set("");
 	    	}
 	    	
+	    	secondElement.textProperty().set("");
 	    	return num;
 	    }
 	    

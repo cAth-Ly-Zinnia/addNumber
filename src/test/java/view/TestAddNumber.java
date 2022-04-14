@@ -61,5 +61,17 @@ public class TestAddNumber
 		enterNumber(robot, "1", "2");
 		robot.clickOn("#addButton");
 		checkSum(robot, "3");
+		
+		enterNumber(robot, "5", "10");
+		robot.clickOn("#addButton");
+		checkSum(robot, "15");
+		
+		enterNumber(robot, "-5", "10");
+		robot.clickOn("#addButton");
+		checkSum(robot, "5");
+		
+		enterNumber(robot, "-5", "-10");
+		robot.clickOn("#addButton");
+		checkSum(robot, "-15");
 	}
 }
